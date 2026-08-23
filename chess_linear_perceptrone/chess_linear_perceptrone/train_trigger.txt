@@ -1,0 +1,10 @@
+# 학습 실행 방법 및 트리거
+
+1. 의존성 설치 (최초 1회)
+   pip install -r requirements.txt
+
+2. 학습 실행
+   python main.py
+
+- configs/config.yaml에서 하이퍼파라미터 및 device(cpu/cuda) 설정 가능
+- 학습이 끝나면 perceptron_agent.pth 파일로 모델이 저장됨 

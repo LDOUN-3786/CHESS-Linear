@@ -1,0 +1,23 @@
+# 프로젝트 폴더 및 파일 역할 정리
+
+- agents/
+  - perceptron_agent.py : 퍼셉트론 기반 Q-learning 에이전트 구현
+
+- envs/
+  - chess_env.py : python-chess 기반 체스 환경 래퍼
+
+- utils/
+  - encoding.py : 체스판 상태를 one-hot 벡터로 변환
+  - metrics.py : (추가 예정) 학습 성능지표 기록 및 저장
+  - visualize.py : (추가 예정) 히트맵, 학습 곡선 등 시각화 함수
+
+- configs/
+  - config.yaml : 하이퍼파라미터 및 학습 설정
+
+- main.py : 전체 학습 및 실행 루프, 에이전트와 환경 연결
+
+- requirements.txt : 프로젝트 의존성 명시
+
+- project_summary.txt : 프로젝트 핵심 구조 및 설계 요약
+
+- train_trigger.txt : 학습 실행 방법 및 트리거 명령어 요약 

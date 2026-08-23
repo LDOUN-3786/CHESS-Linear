@@ -1,0 +1,11 @@
+# 학습 설정
+learning_rate: 0.001
+gamma: 0.99
+epsilon_start: 1.0
+epsilon_end: 0.1
+# epsilon_decay는 0.998에서 1로 점진적으로 증가하도록 main.py에서 동적으로 계산 필요
+epsilon_decay_start: 0.998
+epsilon_decay_end: 1.0
+num_episodes: 300000
+max_steps_per_episode: 200
+device: 'cpu'  # GPU 서버에서는 'cuda'로 변경 

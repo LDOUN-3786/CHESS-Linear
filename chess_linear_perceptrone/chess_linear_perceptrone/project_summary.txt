@@ -1,0 +1,9 @@
+# 프로젝트 요약
+
+- 프레임워크: PyTorch
+- 벡터 구조: 체스판을 8x8x12(말 종류별) one-hot encoding → 768차원 벡터
+- 모델: 퍼셉트론(단일 선형층)
+- 강화학습: Q-learning 기반
+- 환경: python-chess 기반 체스 환경 래퍼
+- 폴더 구조: agents/, envs/, utils/, configs/ 등으로 세분화
+- 학습 환경: GPU 서버에서 학습 예정 
